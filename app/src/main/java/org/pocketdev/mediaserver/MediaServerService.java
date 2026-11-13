@@ -108,7 +108,7 @@ public class MediaServerService extends Service implements ServerManager.ServerS
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setContentTitle(title)
                 .setContentText(text)
-                .setSmallIcon(android.R.drawable.ic_menu_upload_you_tube)
+                .setSmallIcon(R.drawable.ic_notification_server)
                 .setOngoing(true)
                 .setContentIntent(contentPendingIntent)
                 .setPriority(NotificationCompat.PRIORITY_LOW)
